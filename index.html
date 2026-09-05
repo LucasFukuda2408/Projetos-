@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Kobe Oriental Food - Restaurante Japonês em Jandira">
+
+    <title>Kobe Oriental Food | Jandira</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="logo">
+
+        🍣
+
+        <span>
+            KOBE
+            <small>ORIENTAL FOOD</small>
+        </span>
+
+    </div>
+
+
+    <nav>
+
+        <a href="#inicio">
+            Início
+        </a>
+
+        <a href="#cardapio">
+            Cardápio
+        </a>
+
+        <a href="#equipe">
+            Nossa Equipe
+        </a>
+
+        <a href="#sobre">
+            Sobre
+        </a>
+
+        <a href="#localizacao">
+            Localização
+        </a>
+
+        <a href="login.html"
+           class="login-button">
+
+            Entrar
+
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<!-- ================= HERO ================= -->
+
+<section id="inicio"
+         class="hero">
+
+
+    <div class="hero-content">
+
+
+        <p class="hero-subtitle">
+            KOBE ORIENTAL FOOD
+        </p>
+
+
+        <h1>
+
+            O melhor da
+
+            <span>
+                culinária japonesa
+            </span>
+
+            em Jandira.
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            Uma experiência oriental preparada
+            com ingredientes selecionados,
+            tradição e muito sabor.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#cardapio"
+               class="primary-button">
+
+                VER CARDÁPIO
+
+            </a>
+
+
+            <a href="cadastro.html"
+               class="secondary-button">
+
+                CRIAR CONTA
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= DESTAQUES ================= -->
+
+<section class="section">
+
+
+    <div class="section-title">
+
+        <p>
+            SABORES ESPECIAIS
+        </p>
+
+        <h2>
+            Nossos Destaques
+        </h2>
+
+    </div>
+
+
+    <div class="highlight-container">
+
+
+        <div class="highlight-card">
+
+            <div class="highlight-icon">
+                🍣
+            </div>
+
+            <h3>
+                Sushi
+            </h3>
+
+            <p>
+                Peças preparadas com ingredientes
+                frescos e selecionados.
+            </p>
+
+        </div>
+
+
+
+        <div class="highlight-card">
+
+            <div class="highlight-icon">
+                🥢
+            </div>
+
+            <h3>
+                Sashimi
+            </h3>
+
+            <p>
+                Cortes frescos preparados
+                de forma tradicional.
+            </p>
+
+        </div>
+
+
+
+        <div class="highlight-card">
+
+            <div class="highlight-icon">
+                🍱
+            </div>
+
+            <h3>
+                Combinados
+            </h3>
+
+            <p>
+                Combinações especiais para
+                você experimentar vários sabores.
+            </p>
+
+        </div>
+
+
+
+        <div class="highlight-card">
+
+            <div class="highlight-icon">
+                🔥
+            </div>
+
+            <h3>
+                Hot Rolls
+            </h3>
+
+            <p>
+                Crocantes por fora e deliciosos
+                por dentro.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CARDÁPIO ================= -->
+
+<section id="cardapio"
+         class="section menu-section">
+
+
+    <div class="section-title">
+
+        <p>
+            EXPLORE
+        </p>
+
+        <h2>
+            Nosso Cardápio
+        </h2>
+
+    </div>
+
+
+
+    <div class="menu-container">
+
+
+        <div class="food-card">
+
+            <div class="food-image">
+                🍣
+            </div>
+
+            <div class="food-content">
+
+                <h3>
+                    Sushi Especial
+                </h3>
+
+                <p>
+                    Seleção de sushis preparados
+                    com ingredientes frescos.
+                </p>
+
+                <div class="food-bottom">
+
+                    <strong>
+                        R$ 39,90
+                    </strong>
+
+                    <button
+                        onclick="adicionarCarrinho('Sushi Especial', 39.90)">
+
+                        + Adicionar
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="food-card">
+
+            <div class="food-image">
+                🥢
+            </div>
+
+            <div class="food-content">
+
+                <h3>
+                    Sashimi Salmão
+                </h3>
+
+                <p>
+                    Fatias frescas de salmão
+                    cuidadosamente preparadas.
+                </p>
+
+                <div class="food-bottom">
+
+                    <strong>
+                        R$ 42,90
+                    </strong>
+
+                    <button
+                        onclick="adicionarCarrinho('Sashimi Salmão', 42.90)">
+
+                        + Adicionar
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="food-card">
+
+            <div class="food-image">
+                🌯
+            </div>
+
+            <div class="food-content">
+
+                <h3>
+                    Temaki Salmão
+                </h3>
+
+                <p>
+                    Temaki preparado na hora
+                    com salmão e ingredientes frescos.
+                </p>
+
+                <div class="food-bottom">
+
+                    <strong>
+                        R$ 29,90
+                    </strong>
+
+                    <button
+                        onclick="adicionarCarrinho('Temaki Salmão', 29.90)">
+
+                        + Adicionar
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="food-card">
+
+            <div class="food-image">
+                🔥
+            </div>
+
+            <div class="food-content">
+
+                <h3>
+                    Hot Roll
+                </h3>
+
+                <p>
+                    Hot roll crocante preparado
+                    com recheio especial.
+                </p>
+
+                <div class="food-bottom">
+
+                    <strong>
+                        R$ 32,90
+                    </strong>
+
+                    <button
+                        onclick="adicionarCarrinho('Hot Roll', 32.90)">
+
+                        + Adicionar
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= EQUIPE ================= -->
+
+<section id="equipe"
+         class="section team-section">
+
+
+    <div class="section-title">
+
+        <p>
+            QUEM FAZ ACONTECER
+        </p>
+
+        <h2>
+            Nossa Equipe
+        </h2>
+
+        <span>
+            Conheça algumas das pessoas
+            que fazem o Kobe Oriental acontecer.
+        </span>
+
+    </div>
+
+
+
+    <div class="team-container">
+
+
+        <!-- DONO -->
+
+        <div class="team-card">
+
+            <img src="assets/img/dono.jpg"
+                 alt="Dono do Kobe Oriental">
+
+            <div class="team-info">
+
+                <span class="team-role">
+                    PROPRIETÁRIO
+                </span>
+
+                <h3>
+                    Nome do Proprietário
+                </h3>
+
+                <p>
+                    Responsável pela administração
+                    e história do restaurante.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- GERENTE -->
+
+        <div class="team-card">
+
+            <img src="assets/img/gerente.jpg"
+                 alt="Gerente do Kobe Oriental">
+
+            <div class="team-info">
+
+                <span class="team-role">
+                    GERENTE
+                </span>
+
+                <h3>
+                    Nome do Gerente
+                </h3>
+
+                <p>
+                    Responsável pela organização
+                    e funcionamento do restaurante.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FUNCIONÁRIO -->
+
+        <div class="team-card">
+
+            <img src="assets/img/funcionario1.jpg"
+                 alt="Funcionário do Kobe Oriental">
+
+            <div class="team-info">
+
+                <span class="team-role">
+                    CHEF
+                </span>
+
+                <h3>
+                    Nome do Chef
+                </h3>
+
+                <p>
+                    Responsável pela preparação
+                    dos pratos japoneses.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FUNCIONÁRIO -->
+
+        <div class="team-card">
+
+            <img src="assets/img/funcionario2.jpg"
+                 alt="Funcionário do Kobe Oriental">
+
+            <div class="team-info">
+
+                <span class="team-role">
+                    ATENDENTE
+                </span>
+
+                <h3>
+                    Nome do Funcionário
+                </h3>
+
+                <p>
+                    Responsável pelo atendimento
+                    e experiência dos clientes.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= SOBRE ================= -->
+
+<section id="sobre"
+         class="about-section">
+
+
+    <div class="about-content">
+
+
+        <p class="about-label">
+            KOBE ORIENTAL FOOD
+        </p>
+
+
+        <h2>
+            Uma experiência
+            oriental em Jandira.
+        </h2>
+
+
+        <p>
+
+            O Kobe Oriental Food é um restaurante
+            especializado em culinária japonesa,
+            oferecendo uma experiência com
+            diferentes sabores da gastronomia oriental.
+
+        </p>
+
+
+        <p>
+
+            Nosso objetivo é proporcionar aos
+            clientes uma experiência agradável,
+            desde o atendimento até cada prato
+            servido.
+
+        </p>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ================= LOCALIZAÇÃO ================= -->
+
+<section id="localizacao"
+         class="location-section">
+
+
+    <div class="section-title">
+
+        <p>
+            VENHA NOS VISITAR
+        </p>
+
+        <h2>
+            Onde estamos
+        </h2>
+
+    </div>
+
+
+    <div class="location-content">
+
+
+        <div class="location-icon">
+            📍
+        </div>
+
+
+        <h3>
+            Kobe Oriental Food
+        </h3>
+
+
+        <p>
+            Rua Ricarte Sewaybricker, 52
+        </p>
+
+        <p>
+            Centro - Jandira - SP
+        </p>
+
+        <p>
+            CEP 06600-045
+        </p>
+
+
+        <a
+            href="https://www.google.com/maps/search/?api=1&query=Rua+Ricarte+Sewaybricker+52+Jandira+SP"
+            target="_blank"
+            class="primary-button">
+
+            VER NO MAPA
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+
+    <div class="footer-logo">
+
+        🍣
+
+        <span>
+            KOBE
+            <small>
+                ORIENTAL FOOD
+            </small>
+        </span>
+
+    </div>
+
+
+    <p>
+        © 2026 Kobe Oriental Food.
+        Todos os direitos reservados.
+    </p>
+
+
+    <p>
+        Jandira - SP
+    </p>
+
+
+</footer>
+
+
+
+<!-- ================= CARRINHO ================= -->
+
+<div id="cart">
+
+    🛒
+
+    <span id="cart-count">
+        0
+    </span>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
+
